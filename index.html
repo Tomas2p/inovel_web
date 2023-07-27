@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>INovel</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+</head>
+
+<body>
+  <button id="themeButton">
+    <span class="material-symbols-outlined" id="iconMode"></span>
+  </button>
+  <div class="container-full">
+    <button class="btn">
+      <h1>INovel - Novelas Interactivas</h1>
+      <p>By @Tomás2p</p>
+    </button>
+    <!-- The story selection menu -->
+    <div class="container1">
+      <p>Historias disponibles:</p>
+      <div id="story-container"></div>
+    </div>
+  </div>
+  <!-- Scripts for the page -->
+  <script src="scripts/story.js"></script>
+  <script src="scripts/addons.js"></script>
+  <!-- YAML to JSON no funciona
+    <script src="/home/tomaspp/node_modules/js-yaml/bin/js-yaml.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/jibs/js-yaml/4.1.0/js-yaml.min.js"></script> -->
+</body>
+
+</html>

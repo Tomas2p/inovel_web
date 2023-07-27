@@ -1,0 +1,24 @@
+{
+  "stories": [
+    {
+      "title": "Template",
+      "file": "template"
+    },
+    {
+      "title": "El Caballero",
+      "file": "caballero"
+    },
+    {
+      "title": "Carga el movil",
+      "file": "carga_el_movil"
+    },
+    {
+      "title": "El Tesoro Perdido",
+      "file": "tesoro_perdido"
+    },
+    {
+      "title": "El Sendero Estelar",
+      "file": "sendero_estelar"
+    }
+  ]
+}

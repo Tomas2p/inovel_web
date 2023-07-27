@@ -1,0 +1,66 @@
+{
+  "title": "Carga el Móvil",
+  "description": "Encuentra la manera de cargar tu teléfono",
+  "scenes": [
+    {
+      "scene": {
+        "title": "El cargador",
+        "text": "¿Donde pusiste el cargador de tu teléfono?",
+        "choices": [
+          {
+            "choice": {
+              "title": "El cuarto",
+              "text": "Miras por tu cuarto a ver si esta el cargador y por obra de el de arriba la encuentras entre las sábanas, quizas deverias hacer la cama, ya es mediodía."
+            }
+          },
+          {
+            "choice": {
+              "title": "El trastero",
+              "text": "Aquí solo esta la vieja PC ¿Un minecraft 2D?"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "scene": {
+        "title": "Conectar el movil",
+        "text": "Bien, ya tienes el cargador y el movil, ¿ahora a donde lo conectas?",
+        "choices": [
+          {
+            "choice": {
+              "title": "A la pared",
+              "text": "Carga a una velocidad normal, y listo"
+            }
+          },
+          {
+            "choice": {
+              "title": "Al reactor 5",
+              "text": "Heeee booom, se te acaba de liar que te cagas. ALERTA POR RADIACIÓN."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "scene": {
+        "title": "Carga completa",
+        "text": "Listo crack ya esta al 100%, ¿Ahora?",
+        "choices": [
+          {
+            "choice": {
+              "title": "Mirar carga",
+              "text": "No se que haces pero no va a cargar a más del 100% ... espera ... no no hace nada."
+            }
+          },
+          {
+            "choice": {
+              "title": "Desconectar",
+              "text": "Desconectas el movil y tiras el cargador por ahi, y te vas a comer unos nuggets."
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
