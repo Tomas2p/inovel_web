@@ -1,5 +1,5 @@
 // Agrega esto al principio de tu script
-document.addEventListener("DOMContentLoaded", () => {
+
   fetch("../resources/stories/stories.json")
     .then((response) => response.json())
     .then((data) => {
@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     .catch((error) => {
       console.error("Error al cargar los datos de las historias:", error);
     });
-});
+
 
 function createCard(story) {
   const card = document.createElement("article");
