@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@700&display=swap");
+
+:root {
+	/* Colors */
+	--brand-color: #d5a22a;
+	--black: hsl(0, 0%, 0%);
+	--white: hsl(0, 0%, 100%);
+	--background-color: #1a1a1a;
+	/* Fonts */
+	--font-title: "Montserrat", sans-serif;
+	--font-text: "Lato", sans-serif;
+}
+
+/* Reset CSS */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	background-color: var(--background-color);
+	padding: 15px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+h2 {
+	font-size: 2.25rem;
+	font-family: var(--font-title);
+	color: var(--white);
+	line-height: 1.1;
+}
+
+p {
+	font-family: var(--font-text);
+	font-size: 1rem;
+	line-height: 1.5;
+	color: var(--white);
+}
+
+/* Gallery Grid CSS */
+.grid-wrapper {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns:
+		repeat(auto-fit, minmax(250px, 1fr));
+	grid-auto-rows: 200px;
+	grid-auto-flow: dense;
+}
+
+.grid-wrapper .wide {
+	grid-column: span 2;
+}
+
+.grid-wrapper .tall {
+	grid-row: span 2;
+}
+
+.grid-wrapper .big {
+	grid-column: span 2;
+	grid-row: span 2;
+}
+
+.grid-wrapper>section {
+	display: flex;
+	place-content: center;
+}
+
+.grid-wrapper>article {
+	position: relative;
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+.grid-wrapper>article>img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: filter 0.3s;
+}
+
+.grid-wrapper>article>div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	place-content: center;
+	padding: 15px;
+	text-align: center;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+	/* Fondo semitransparente */
+	border-radius: 10px;
+	opacity: 0;
+	/* Inicialmente, el contenido estará oculto */
+	transition: opacity 0.3s;
+}
+
+.grid-wrapper>article:hover img {
+	filter: grayscale(100%);
+	/* Aplicar efecto de escala de grises cuando se pasa el ratón */
+}
+
+.grid-wrapper>article:hover div {
+	opacity: 1;
+	/* Mostrar el contenido cuando se pasa el ratón */
+}
+
+/* Estilos de las etiquetas */
+.grid-wrapper>article>i {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	border-radius: 8px;
+	margin: 5px;
+	padding: 8px;
+	font-family: var(--font-title);
+	font-variant: small-caps;
+	font-size: larger;
+	z-index: 10;
+}
+
+.grid-wrapper>article>i.new {
+	color: var(--black);
+	background-color: var(--brand-color);
+}
+
+.grid-wrapper>article>i.broken {
+	color: var(--black);
+	background-color: crimson;
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+	background-color: #333;
+	/* Color de fondo */
+	padding: 10px;
+	margin-bottom: 25px;
+	/* Espaciado interno superior e inferior */
+	border-radius: 15px;
+	font-family: var(--font-title);
+	position: fixed;
+	width: 30%;
+	bottom: -10px;
+	left: 35%;
+	z-index: 1000;
+}
+
+.navbar nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.navbar nav ul li {
+	display: inline-flex;
+	margin-inline: 15px;
+	/* Espaciado entre elementos de navegación */
+}
+
+.navbar nav ul li a {
+	text-decoration: none;
+	color: white;
+	/* Color del texto */
+	font-weight: bold;
+	font-size: 16px;
+	transition: color 0.3s;
+}
+
+.navbar nav ul li a:hover {
+	color: #d5a22a;
+	/* Color de resaltado al pasar el ratón */
+}

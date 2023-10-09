@@ -1,0 +1,36 @@
+{
+  "stories": [
+    {
+      "status": "new",
+      "title": "El Caballero",
+      "size": "tall",
+      "description": "Épica aventura de un caballero del reino para rescatar a la princesa y acabar con el dragón.",
+      "image": "https://images.unsplash.com/photo-1586325194227-7625ed95172b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1900&q=80"
+    },
+    {
+      "status": "new",
+      "title": "La Senda Estelar",
+      "description": "Descripción de otra historia",
+      "image": "../resources/images/portada-la-senda-estelar.png"
+    },
+    {
+      "status": "broken",
+      "title": "El Tesoro",
+      "size": "tall",
+      "description": "Épica aventura de un caballero del reino para rescatar a la princesa y acabar con el dragón.",
+      "image": "https://images.unsplash.com/photo-1586325194227-7625ed95172b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1900&q=80"
+    },
+    {
+      "title": "La Senda Estelar",
+      "size": "wide",
+      "description": "Descripción de otra historia",
+      "image": "../resources/images/portada-la-senda-estelar.png"
+    },
+    {
+      "title": "La Senda Estelar",
+      "size": "big",
+      "description": "Épica aventura de un caballero del reino para rescatar a la princesa y acabar con el dragón.",
+      "image": "https://images.unsplash.com/photo-1586325194227-7625ed95172b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1900&q=80"
+    }
+  ]
+}
