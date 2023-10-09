@@ -1,6 +1,6 @@
 // Agrega esto al principio de tu script
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("../resources/stories/stories.json")
+  fetch("./resources/stories/stories.json")
     .then((response) => response.json())
     .then((data) => {
       const stories = data.stories;
