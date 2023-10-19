@@ -1,6 +1,6 @@
 // Agrega esto al principio de tu script
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("./stories/stories.json")
+  fetch("./resources/stories/stories.json")
     .then((response) => response.json())
     .then((data) => {
       const stories = data.stories;
@@ -20,7 +20,7 @@ function createCard(story) {
   const card = document.createElement("article");
   card.classList.add(story.size);
   card.addEventListener("click", () => {
-    window.location.href = "./story.html";
+    window.location.href = "./src/story.html";
   });
 
   const icon = document.createElement("i");

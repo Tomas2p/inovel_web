@@ -11,7 +11,7 @@
       "status": "broken",
       "title": "La Senda Estelar",
       "description": "Descripción de otra historia",
-      "image": "./images/portada-la-senda-estelar.png"
+      "image": "./resources/images/portada-la-senda-estelar.png"
     },
     {
       "status": "new",
@@ -25,7 +25,7 @@
       "title": "La Senda Estelar",
       "size": "wide",
       "description": "Descripción de otra historia",
-      "image": "./images/portada-la-senda-estelar.png"
+      "image": "./resources/images/portada-la-senda-estelar.png"
     },
     {
       "title": "La Senda Estelar",
