@@ -11,6 +11,7 @@ Novelas interactivas, en una pagina web para que todo el mundo pueda jugar con e
 | v0.2    | 27-08-2023 | - Funcion basica de html y css | - JS y json no van                                      |
 | v0.3    | 01-09-2023 | - JS y json funciona           | - No me gusta el html ni el css                         |
 | v0.5    | 09-10-2023 | - Mejor html, css y js         | - Las historias como tal no van, no tiene pagina creada |
+| v0.6    | 19-10-2023 | - Orden y colores              | - Anterios sin solucionar y nav descentrado             |
 
 ## Funciona
 
