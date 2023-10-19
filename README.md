@@ -26,5 +26,9 @@ Novelas interactivas, en una pagina web para que todo el mundo pueda jugar con e
 - [ ] story.html rework because its broken
 - [ ] Redirect to personal page
 - [ ] Filter search of stories on home
-- [ ] Multiple laguage support
+- [ ] Multiple language support
 - [ ] Add support for anyone to make stories
+
+## Imagenes
+
+![Imagen de la web INovel](image.png)
